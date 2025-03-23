@@ -1,62 +1,60 @@
 # Project Title
+News Aggregator
 
-Simple overview of use/purpose.
+## Overview
+This project is a Java-based news aggregator that fetches and displays the latest news articles related to "Tesla" using the NewsAPI. It integrates API calls, JSON parsing, and user interaction through a menu-driven console interface.
 
 ## Description
-
-An in-depth paragraph about your project and overview of use.
+The News Aggregator is designed to fetch the latest articles from NewsAPI and present them in a structured format. The program retrieves articles using an HTTP request, parses the JSON response, and stores the relevant information for easy access. Users can browse news headlines, select articles for detailed viewing, and navigate through the news list interactively.
 
 ## Getting Started
 
 ### Dependencies
-
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+Before running the program, ensure you have the following prerequisites:
+- Java Development Kit (JDK) 11 or later
+- Internet connection for API requests
+- NewsAPI API key
 
 ### Installing
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-repo/news-aggregator.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd news-aggregator
+   ```
+3. Ensure the `APIKEY` is correctly set in the `Main` class.
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+### Executing Program
+To run the program, follow these steps:
+1. Compile the Java files:
+   ```sh
+   javac AP/*.java
+   ```
+2. Run the main application:
+   ```sh
+   java AP.Main
+   ```
 
 ## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+If you encounter issues:
+- Ensure your API key is correct and active.
+- Verify that your internet connection is stable.
+- If an error occurs, check the console output for debugging information.
 
 ## Authors
-
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+- **Mohammad Mahdi Aghanejad** - 
 
 ## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
+- **0.2** - Various bug fixes and optimizations (See commit history)
+- **0.1** - Initial release
 
 ## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under the MIT License - see the `LICENSE.md` file for details.
 
 ## Acknowledgments
+- NewsAPI for providing the news data.
+- Open-source Java communities for guidance.
+- Inspiration from similar news aggregation projects.
 
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
